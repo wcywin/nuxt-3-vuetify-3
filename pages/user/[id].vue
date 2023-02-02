@@ -214,7 +214,7 @@ onMounted(() => {
 onUnmounted(() => resetAddTodoForm())
 </script>
 
-<style>
+<style scoped lang="scss">
 .p-user {
   max-width: 800px !important;
 }

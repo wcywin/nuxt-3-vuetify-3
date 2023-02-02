@@ -2,7 +2,7 @@
   <span class="c-loader"/>
 </template>
 
-<style>
+<style scoped lang="scss">
 .c-loader {
   width: 48px;
   height: 48px;

@@ -25,7 +25,7 @@ defineProps<Props>()
 
 </script>
 
-<style>
+<style scoped lang="scss">
 .nuxt-link-component {
   color: var(--primary)
 }

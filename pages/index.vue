@@ -87,7 +87,7 @@ onBeforeUnmount(() => resetSearch())
 
 </script>
 
-<style>
+<style scoped lang="scss">
 .p-home {
   max-width: 600px !important;
 }
