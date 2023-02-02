@@ -7,7 +7,7 @@
     </v-row>
   </v-container>
 
-  <v-container v-else>
+  <v-container v-else class="p-user">
     <div class="w-100 d-flex justify-space-between align-baseline">
       <nuxt-link-component direct-to="/" class="d-block">
         <v-btn
@@ -213,3 +213,9 @@ onMounted(() => {
 })
 onUnmounted(() => resetAddTodoForm())
 </script>
+
+<style>
+.p-user {
+  max-width: 800px !important;
+}
+</style>
